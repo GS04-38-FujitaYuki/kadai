@@ -307,9 +307,15 @@
         var diffDatao = localStorage.getItem("diffData");
         var gameDatao = localStorage.getItem("gameData");
     }
+    //console.log(document.getElementById("send"));
+    //document.getElementById("send").value= 1;
+    document.getElementById("difsend").value=1;
+    console.log('saa');
     function sender(){
-        document.forms['form'].elements['diff'].value = diffDatao;
-        document.forms['form'].elements['game'].value = gameDatao;
+        document.getElementById("difsend").value=2;
+        document.getElementById("gamesend").value=2;
+        //document.forms['form'].elements['diff'].value = diffDatao;
+        //document.forms['form'].elements['game'].value = gameDatao;
         form.submit();
     }
     function checkResult(){

@@ -1,0 +1,280 @@
+body{
+    background: #e0e0e0;
+    font-family: monospace;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 30px;
+}
+#container {
+     width:96%;
+     margin-left:auto;
+     margin-right:auto;
+     text-align:left;
+}
+#wrapper {
+     width:84%;
+     float:left;
+}
+#leftArea{
+    width:20%;
+    float:left;
+}
+#centerArea{
+    width:74%;
+    float:left;
+}
+#rightArea{
+    padding-top: 50px;
+    width:10%;
+    float:right;
+    padding-right: 80px;
+}
+.bet{
+    margin: 0 auto;
+    width: 80px;
+    height: 40px;
+    border-radius: 50px;
+    background: #ff2222;
+    padding-top: 10px;
+    color: #dddddd;
+}
+.bet.inactive{
+    margin: 0 auto;
+    width: 80px;
+    height: 40px;
+    border-radius: 50px;
+    background: #ff2222;
+    padding-top: 10px;
+    color: #dddddd;
+    opacity: 0.5;
+}
+.bet+.bet{
+    margin-top:50px;
+}
+
+#spinButton{
+    margin: 0 auto;
+    display: inline-block;
+    width:100px;
+    height:100px;
+    padding: 7px;
+    border-radius: 100px;
+    color: #fff;
+    box-shadow: 0 4px 0 #e91b0c;
+    background:#f44336;
+    cursor: pointer;
+    position: relative;
+    right:35px;
+    top:100px;
+}
+
+#spinButton:active{
+    top:110px;
+}
+
+#spinButton.active{
+    position: relative;
+    top:110px;
+}
+
+#spinBow{
+    margin: 0 auto;
+    display: inline-block;
+    width:60px;
+    height: 60px;
+    padding: 7px;
+    border-radius: 5px;
+    margin-left: 40px;
+    color: #fff;
+    box-shadow: 0 4px 0 #444444;
+    background:#888888;
+    cursor: pointer;
+    float: left;
+    position: relative;
+    top:150px
+}
+
+.panel{
+    display: inline-block;
+    width:250px;
+    height: 300px;
+    padding: 7px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    color: #00aaff;
+    font-weight: bold;
+    font-size:32px;
+    line-height:64px;
+    background:#fff;
+
+}
+.panel+.panel{
+    margin-left: 10px;
+}
+.panel.unmatched{
+    opacity: 0.5;
+}
+#maxbet{
+    margin: 0 auto;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    padding: 10px;
+    background: #0066ff;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 10px 0 #00ccff;
+}
+#maxbet:active{
+    position: relative;
+    top:10px;
+    box-shadow: none;
+}
+#maxbet.active{
+    position: relative;
+    top:10px;
+    box-shadow: none;
+}
+.btn{
+    display: inline-block;
+    width:100px;
+    height: 100px;
+    padding: 7px;
+    border-radius: 100px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: 10px;
+    color: #fff;
+    box-shadow: 0 4px 0 #0088cc;
+    background:#555555;
+    cursor: pointer;
+}
+.btn2{
+    display: inline-block;
+    width:80px;
+    height: 80px;
+    padding: 5px;
+    border-radius: 100px;
+    color: #fff;
+    box-shadow: 0 4px 0 #0088cc;
+    background:#aa00ff;
+    cursor: pointer;
+    border:solid 5px #ff0000;
+}
+.btn+.btn{
+    margin-left: 180px;
+}
+.btn2+.btn2{
+    margin-left: 220px;
+}
+.btn.inactive{
+    opacity: 0.5;
+}
+.btn.btn2.inactive{
+    border: none;
+}
+.btn:active{
+    position: relative;
+    bottom: 5px;
+}
+
+.btn.push{
+    position: relative;
+    bottom: 5px;
+}
+
+#insButton{
+    margin: 0 auto;
+    display: inline-block;
+    width:60px;
+    padding: 7px;
+    border-radius: 5px;
+    color: #fff;
+    box-shadow: 0 4px 0 #444444;
+    background:#888888;
+    cursor: pointer;
+}
+#insButton:active{
+    position: relative;
+    top:4px;
+    box-shadow:none;
+}
+#insButton.active{
+    position: relative;
+    top:4px;
+    box-shadow:none;
+}
+#credit{
+    display: inline-block;
+    width:60px;
+    height:30px;
+    color:#fff;
+    background: #000;
+    border:2px;
+    padding:10px;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+}
+#payout{
+    display: inline-block;
+    width:60px;
+    height:30px;
+    color:#fff;
+    background: #000;
+    border:2px;
+    padding:10px;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+}
+#yourCoin{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background: #444;
+    color:#fff;
+    padding-bottom: 30px;
+    margin-top: 20px;
+}
+#difCoin{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background: #444;
+    color:#fff;
+    padding-bottom: 30px;
+    margin-top: 20px;
+}
+#game{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background: #444;
+    color:#fff;
+    padding-bottom: 30px;
+    margin-top: 20px;
+}
+#bonus{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background: #444;
+    color:#fff;
+    padding-bottom: 30px;
+    margin-top: 20px;
+}
+#clear{
+ width:100%;
+ clear:both;
+ display: none;
+}
+
+#graph{
+    width:200px;
+    height:50px;
+    background: #5f5;
+    border-radius: 10px;
+    display: inline-block;
+    padding-top: 25px;
+}
