@@ -7,10 +7,11 @@ CONST PATH = './graph.json';
 if($_SERVER['REQUEST_METHOD']!=='POST'){
     exit('不正なアクセスです');
 }
+// 
+// echo $diff."¥n";
+// echo $game;
+// echo $bonus;
 
-echo $diff;
-echo $game;
-echo $bonus;
 // var_dump(!is_numeric($_POST['diff']));
 // var_dump($_POST['diff']);
 // var_dump(!is_numeric($_POST['game']));
